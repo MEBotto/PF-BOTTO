@@ -1,0 +1,68 @@
+@mixin transitionScale ($valorScale) {
+  transition: all 0.2s ease-in-out;
+  transform: scale($valorScale);
+}
+
+body {
+  background-color: white;
+
+  .row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .card {
+    margin: 10px 0px;
+
+    &:hover {
+      @include transitionScale(1.05);
+    }
+  }
+
+  .btn-primary:hover {
+    @include transitionScale(1.1);
+
+  }
+}
+
+@each $lugar in inicio, tokyo, osaka, kyoto, okinawa, fukuoka, kobe, contacto {
+  @for $i from 1 through 3 {
+    .#{$lugar}-bg-#{$i} {
+      height: 100vh;
+      background-size: cover;
+      background-position: center center;
+      background-image: url(../assets/img/#{$lugar}back#{$i}.jpg);
+    }
+  }
+}
+
+@each $tipoTexto in nav, title, card-title, subtitle, subtheme, description, subtitle_description {
+  .#{$tipoTexto}-text {
+    @if $tipoTexto == "description" or $tipoTexto == "subtitle_description" {
+      font-family: "Gilroy-Light";
+      @if $tipoTexto == "description" {
+        text-align: justify;
+      }
+    }
+    @else {
+      font-family: "Gilroy-ExtraBold";
+    }
+
+    @if $tipoTexto == "title" or $tipoTexto == "card-title" {
+      color: white;
+      @if $tipoTexto == "title" {
+        display: inline-flex;
+      }  
+    }
+    @else {
+      color: black;
+      @if $tipoTexto == "nav" {
+        font-size: large;
+      }
+      @if $tipoTexto == "subtitle" {
+        margin-top: 40px;
+      }
+    }
+    z-index: 999;
+  }
+} 

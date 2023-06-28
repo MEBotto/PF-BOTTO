@@ -1,0 +1,340 @@
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url(../assets/fonts/gilroy-extrabold.otf);
+}
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url(../assets/fonts/gilroy-light.otf);
+}
+header {
+  background-color: #F7F7F8;
+}
+header #navbarNavAltMarkup {
+  justify-content: center;
+}
+header .nav-link:hover {
+  color: red;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.2);
+}
+header .navbar-brand:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.2);
+}
+
+body {
+  background-color: white;
+}
+body .row {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+body .card {
+  margin: 10px 0px;
+}
+body .card:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.05);
+}
+body .btn-primary:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+}
+
+.inicio-bg-1 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/inicioback1.jpg);
+}
+
+.inicio-bg-2 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/inicioback2.jpg);
+}
+
+.inicio-bg-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/inicioback3.jpg);
+}
+
+.tokyo-bg-1 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/tokyoback1.jpg);
+}
+
+.tokyo-bg-2 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/tokyoback2.jpg);
+}
+
+.tokyo-bg-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/tokyoback3.jpg);
+}
+
+.osaka-bg-1 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/osakaback1.jpg);
+}
+
+.osaka-bg-2 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/osakaback2.jpg);
+}
+
+.osaka-bg-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/osakaback3.jpg);
+}
+
+.kyoto-bg-1 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/kyotoback1.jpg);
+}
+
+.kyoto-bg-2 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/kyotoback2.jpg);
+}
+
+.kyoto-bg-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/kyotoback3.jpg);
+}
+
+.okinawa-bg-1 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/okinawaback1.jpg);
+}
+
+.okinawa-bg-2 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/okinawaback2.jpg);
+}
+
+.okinawa-bg-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/okinawaback3.jpg);
+}
+
+.fukuoka-bg-1 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/fukuokaback1.jpg);
+}
+
+.fukuoka-bg-2 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/fukuokaback2.jpg);
+}
+
+.fukuoka-bg-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/fukuokaback3.jpg);
+}
+
+.kobe-bg-1 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/kobeback1.jpg);
+}
+
+.kobe-bg-2 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/kobeback2.jpg);
+}
+
+.kobe-bg-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/kobeback3.jpg);
+}
+
+.contacto-bg-1 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/contactoback1.jpg);
+}
+
+.contacto-bg-2 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/contactoback2.jpg);
+}
+
+.contacto-bg-3 {
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(../assets/img/contactoback3.jpg);
+}
+
+.nav-text {
+  font-family: "Gilroy-ExtraBold";
+  color: black;
+  font-size: large;
+  z-index: 999;
+}
+
+.title-text {
+  font-family: "Gilroy-ExtraBold";
+  color: white;
+  display: inline-flex;
+  z-index: 999;
+}
+
+.card-title-text {
+  font-family: "Gilroy-ExtraBold";
+  color: white;
+  z-index: 999;
+}
+
+.subtitle-text {
+  font-family: "Gilroy-ExtraBold";
+  color: black;
+  margin-top: 40px;
+  z-index: 999;
+}
+
+.subtheme-text {
+  font-family: "Gilroy-ExtraBold";
+  color: black;
+  z-index: 999;
+}
+
+.description-text {
+  font-family: "Gilroy-Light";
+  text-align: justify;
+  color: black;
+  z-index: 999;
+}
+
+.subtitle_description-text {
+  font-family: "Gilroy-Light";
+  color: black;
+  z-index: 999;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@media (min-width: 320px) and (max-width: 444px) {
+  .card-title-text {
+    font-size: 55px;
+  }
+  .title-text {
+    font-size: 70px;
+  }
+  .subtitle-text {
+    font-size: 40px;
+  }
+  .subtheme-text {
+    font-size: 30px;
+  }
+  .subtitle-description_text {
+    font-size: medium;
+  }
+}
+@media (min-width: 445px) and (max-width: 1200px) {
+  .card-title-text {
+    font-size: 75px;
+  }
+  .title-text {
+    font-size: 85px;
+  }
+  .subtitle-text {
+    font-size: 60px;
+  }
+  .subtheme-text {
+    font-size: 50px;
+  }
+  .subtitle-description_text {
+    font-size: large;
+  }
+}
+@media (min-width: 1200px) {
+  .card-title-text {
+    font-size: 70px;
+  }
+  .title-text {
+    font-size: 130px;
+  }
+  .subtitle-text {
+    font-size: 70px;
+  }
+  .subtheme-text {
+    font-size: 60px;
+  }
+  .subtitle-description_text {
+    font-size: xx-large;
+  }
+}
+@media (min-width: 425px) and (max-width: 768px) {
+  .description-text {
+    font-size: 20px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .description-text {
+    font-size: 22px;
+  }
+}
+@media (min-width: 1025px) {
+  .description-text {
+    font-size: 18px;
+  }
+}
+footer {
+  background-color: #F7F7F8;
+}
+footer .imagen-footer {
+  margin-top: 10px;
+}
+footer .imagen-footer:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=main.css.map */

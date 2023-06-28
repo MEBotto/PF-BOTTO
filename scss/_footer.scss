@@ -1,0 +1,17 @@
+@mixin transitionScale ($valorScale) {
+  transition: all 0.2s ease-in-out;
+  transform: scale($valorScale);
+}
+
+footer {
+  background-color: #F7F7F8;
+
+  .imagen-footer {
+    margin-top: 10px;
+  
+    &:hover {
+      @include transitionScale(1.1);
+    }
+  }
+}
+

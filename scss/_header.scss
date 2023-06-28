@@ -1,0 +1,22 @@
+@mixin transitionScale ($valorScale) {
+  transition: all 0.2s ease-in-out;
+  transform: scale($valorScale);
+}
+
+header {
+  background-color: #F7F7F8;
+
+  #navbarNavAltMarkup{
+    justify-content: center;
+  }
+  
+  .nav-link:hover {
+    color: red;
+    @include transitionScale(1.2);
+  }
+
+  .navbar-brand:hover {
+    @include transitionScale(1.2);
+  }
+}
+
